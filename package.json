@@ -1,0 +1,24 @@
+{
+    "name": "com.shusmo.[toolname]",
+    "version": "1.0.0",
+    "displayName": "Tool Name",
+    "description": "Description",
+    "documentationUrl": "URL to the README.md file",
+    "changelogUrl": "URL to the CHANGELOG.md file",
+    "licensesUrl": "URL to the LICENSE file",
+    "dependencies": {
+      "com.unity.textmeshpro": "3.0.6"
+   },
+    "author": {
+      "name": "Shusmo",
+      "email": "Alaa@Shusmo.io",
+      "url": "https://shusmo.io"
+    },
+    "samples": [
+      {
+        "displayName": "Demo Sample 1",
+        "description": "Demonstrates a simple sample with a script",
+        "path": "Samples~/DemoSample1"
+      }
+     ]
+  }
