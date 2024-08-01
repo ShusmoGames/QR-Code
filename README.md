@@ -12,9 +12,7 @@ This Unity project provides functionality to scan QR codes using a device camera
 
 ### QR Code Scanning
 ```csharp
-using ShusmoSystems.QR;
-
-QR.Scan
+ShusmoAPI.QR.Scan
 (
 onSuccess: (result) => { Debug.Log("Scan successful: " + result); },
 onFailed: (error) => { Debug.LogError("Scan failed: " + error); },
@@ -24,14 +22,10 @@ onFouresStop: (reason) => { Debug.Log("Scanning stopped: " + reason); }
 
 ### QR Code Generate
 ```csharp
-using ShusmoSystems.QR;
-
-Texture2D texture = QR.Generate(qrInputField.text);
+Texture2D texture = ShusmoAPI.QR.Generate(qrInputField.text);
 ```
 
 ### QR Code Read
 ```csharp
-using ShusmoSystems.QR;
-
-string text = QR.Read(texture);
+string text = ShusmoAPI.QR.Read(texture);
 ```
