@@ -1,11 +1,11 @@
 {
     "name": "com.shusmo.qr",
     "version": "1.0.0",
-    "displayName": "Tool Name",
-    "description": "Description",
-    "documentationUrl": "URL to the README.md file",
-    "changelogUrl": "URL to the CHANGELOG.md file",
-    "licensesUrl": "URL to the LICENSE file",
+    "displayName": "QR Code",
+    "description": "This Unity project provides functionality to scan QR codes using a device camera",
+    "documentationUrl": "https://github.com/ShusmoGames/QR-Code/blob/main/README.md",
+    "changelogUrl": "https://github.com/ShusmoGames/QR-Code/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/ShusmoGames/QR-Code/blob/main/LICENSE",
     "dependencies": {
       "com.unity.textmeshpro": "3.0.6"
    },
