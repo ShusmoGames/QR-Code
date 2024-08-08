@@ -1,6 +1,6 @@
 {
     "name": "com.shusmo.qr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "QR Code",
     "description": "This Unity project provides functionality to scan QR codes using a device camera",
     "documentationUrl": "https://github.com/ShusmoGames/QR-Code/blob/main/README.md",
